@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+         <listener class-name="base_claims.Listeners"/>
+</listeners>
+  <test thread-count="5" name="Test" preserve-order="true">
+    <classes>
+      <class name="p01_claims_user_login_logout.ClaimsUserLogin"/>
+      <class name="p02_submit_claims.TC01_SubmitClaimsButton"/>
+      <class name="p02_submit_claims.TC02_ClaimsType"/>
+      <class name="p02_submit_claims.TC04_futureBillDate"/>
+      <class name="p02_submit_claims.TC05_previousFYBillDate"/>
+      <class name="p02_submit_claims.TC06_billDate"/>
+      <class name="p02_submit_claims.TC07_ClaimAmout"/>
+      <class name="p02_submit_claims.TC08_BillNumber"/>
+      <class name="p02_submit_claims.TC09_NumberOfBills"/>
+      <class name="p02_submit_claims.TC10_AddFileValidAttachment"/>
+      <class name="p02_submit_claims.TC11_AddFileInvalidAttachment"/>
+      <class name="p02_submit_claims.TC12_AddMultipleFile"/>
+      <class name="p02_submit_claims.TC16_DescriptionField"/>
+      <class name="p02_submit_claims.TC17_CancelSubmitClaims"/>
+      <class name="p02_submit_claims.TC18_ResetSubmitClaims"/>
+      <class name="p02_submit_claims.TC19_SubmitClaims"/>
+      <class name="p03_view_claims.TC01_ViewClaimsTab"/>
+      <class name="p03_view_claims.TC02_ViewClaimsPage"/>
+      <class name="p03_view_claims.TC04_KeyinCommentActionColumn"/>
+      <class name="p03_view_claims.TC05_WithoutKeyinCommentActionColumn"/>
+      <class name="p03_view_claims.TC06_CancelComment"/>
+      <class name="p03_view_claims.TC07_CommentBackButton"/>
+      <class name="p03_view_claims.TViewFileAttachment"/>
+      <class name="p04_claims_approver_login_logout.ClaimsApproverLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

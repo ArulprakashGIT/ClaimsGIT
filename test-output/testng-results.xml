@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-22T10:59:25 IST" name="Default suite" finished-at="2022-08-22T11:00:28 IST" duration-ms="62444">
+    <groups>
+    </groups>
+    <test started-at="2022-08-22T10:59:25 IST" name="Default test" finished-at="2022-08-22T11:00:28 IST" duration-ms="62444">
+      <class name="p02_submit_claims.TC20_NoSubmitClaims">
+        <test-method signature="tC20_NoSubmitClaims()[pri:0, instance:p02_submit_claims.TC20_NoSubmitClaims@20ce78ec]" started-at="2022-08-22T10:59:26 IST" name="tC20_NoSubmitClaims" finished-at="2022-08-22T11:00:28 IST" duration-ms="62420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC20_NoSubmitClaims -->
+      </class> <!-- p02_submit_claims.TC20_NoSubmitClaims -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
